@@ -1,0 +1,23 @@
+package com.company;
+//Arya Sharma
+public class ThisInvokeMethod {
+  void display() {
+    System.out.println("Hello");
+  }
+
+  void show()
+  {
+     this.display();
+  }
+
+  public static void main(String[] args) {
+    ThisInvokeMethod td = new ThisInvokeMethod();
+    td.show();
+  }
+}
+
+
+
+
+
+

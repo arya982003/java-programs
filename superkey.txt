@@ -1,0 +1,26 @@
+package com.company;
+//Arya sharma
+public class SuperKey {
+    void show()
+    {
+        System.out.println("10");
+    }
+}
+class Xxy extends SuperKey
+{
+    void show()
+    {
+        super.show();
+        System.out.println("20");
+    }
+    public static void main(String[] args)
+    {
+        Xxy x=new Xxy ();
+        x.show();
+    }
+}
+
+
+
+
+

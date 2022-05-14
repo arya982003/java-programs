@@ -1,0 +1,16 @@
+package com.company;
+//Arya sharma
+import java.util.Scanner;
+public class AreaRectangle {
+    public static void main(String[] args)
+    {   int area, l, b;
+        System.out.println("enter a number whose area to be find...");
+        Scanner sc = new Scanner(System.in);
+        l = sc.nextInt();
+        b = sc.nextInt();
+        area = l * b;
+        System.out.println("area of rectangle="+area);
+    }
+}
+
+

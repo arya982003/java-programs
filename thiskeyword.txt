@@ -1,0 +1,20 @@
+package com.company;
+//Arya sharma
+public class ThisConst {
+    ThisConst()
+    {   this(10);
+        System.out.println("No Arguments Constructor");
+    }
+    ThisConst(int a)
+    {System.out.println("Parameterized Constructor");}
+    public static void main(String[] args)
+    {
+        ThisConst tc= new ThisConst();
+    }
+}
+
+
+
+
+
+

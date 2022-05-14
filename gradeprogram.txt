@@ -1,0 +1,27 @@
+package com.company;
+//Arya sharma
+import java.util.Scanner;
+public class GradeMarks {
+    public static void main(String[] args)
+    {   int n;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter A New Number");
+        n=sc.nextInt();
+        if(n>=80) {
+            System.out.println("Honours");
+        }
+            else if((n<80)&&(n>=60)) {
+            System.out.println("First divison");
+        }
+            else if((n<60)&&(n>=50)) {
+            System.out.println("Second divison");
+        }
+            else if((n<50)&&(n>=40)) {
+            System.out.println("Third divison");
+        }
+            else {
+                System.out.println("Fail");}
+    } }
+
+
+

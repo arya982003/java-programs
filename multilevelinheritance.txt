@@ -1,0 +1,34 @@
+package com.company;
+
+ class MultipleInheritance{
+   void eat()
+   {
+       System.out.println("eating");
+   }
+}
+class Dogs extends MultipleInheritance
+{
+    void baak()
+    {
+        System.out.println("barking");
+    }
+}
+class BabyDog extends Dogs{
+    void weep()
+    {
+        System.out.println("weeping");
+    }
+}
+class Tests{
+    public static void main(String[] args) {
+        BabyDog d=new BabyDog();
+        d.weep();
+        d.baak();
+        d.eat();
+    }
+}
+
+
+
+
+

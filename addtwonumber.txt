@@ -1,0 +1,12 @@
+package com.company;
+//Arya Sharma
+public class AddTwoNumber {
+    public static void main(String[] args)
+    {
+        int sum,a=45,b=63;
+        sum=a+b;
+        System.out.println("addition of two numbers");
+        System.out.println(""+sum);
+    }
+}
+

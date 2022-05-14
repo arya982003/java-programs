@@ -1,0 +1,17 @@
+package com.company;
+//Arya sharma
+public class MainMethodOverloading {
+    public static void main(int i)
+    {
+        System.out.println("1");
+    }
+    public static void main(String[] args)
+    {
+        main(10);
+        System.out.println('2');
+    }
+}
+
+
+
+

@@ -1,0 +1,28 @@
+package com.company;
+//Arya sharma
+import java.util.*;
+public class ColourProgram {
+    public static void main(String[] args)
+    {   int n;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a number");
+        n=sc.nextInt();
+        if(n!=1)
+
+            if(n!=2)
+
+                if(n!=3)
+
+                    System.out.println("YELLOW");
+                    else
+                        System.out.println("WHITE");
+            else
+                    System.out.println("GREEN");
+
+        else
+            System.out.println("RED");
+
+    }
+}
+
+

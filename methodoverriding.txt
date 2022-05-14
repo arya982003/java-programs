@@ -1,0 +1,28 @@
+package com.company;
+//Arya sharma
+public class MethodOverriding {
+    void show()
+    {
+        System.out.println("10");
+    }
+}
+class Xyz extends MethodOverriding
+{
+    void show()
+    {
+        System.out.println("20");
+    }
+    public static void main(String[] args)
+    {
+        Xyz x=new Xyz();
+        x.show();
+        MethodOverriding m= new MethodOverriding();
+        m.show();
+    }
+}
+
+
+
+
+
+
